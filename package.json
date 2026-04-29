@@ -1,0 +1,28 @@
+{
+  "name": "streamingserver",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Pranav104-1/StreamingServer#readme",
+  "bugs": {
+    "url": "https://github.com/Pranav104-1/StreamingServer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranav104-1/StreamingServer.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
